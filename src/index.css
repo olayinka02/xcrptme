@@ -1,3 +1,9 @@
+:root {
+ 
+  --bg: #2A3266;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -11,3 +17,148 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.sidebar{
+ border-color:#2A3266 !important;
+ height:100vh !important;
+
+ 
+}
+.logo{
+ color: aliceblue;
+}
+
+.menu{
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+ justify-content: center; /* Horizontally center the content */
+ align-items: center;
+ margin-top:0.5rem !important;
+}
+.container{
+  background-color: var(--bg);
+}
+.menuitem{
+  height:2rem !important;
+  
+}
+.menuitem:hover{
+  background-color: none !important;
+}
+
+/* .ps-sidebar-container{
+  text-align: center !important;
+  justify-content: center !;
+} */
+
+.ps-menu-button{
+  height:2.5rem !important;
+  font-size:0.85rem;
+ 
+
+
+ 
+
+}
+.ps-menu-button:hover{
+  background-color: transparent !important;
+}
+.ps-menu-button:active{
+ border: 5rem !important;
+ border-color: aliceblue !important;
+}
+
+.Newsletter{
+  background-color: #A717B4 !important;
+  margin:0.5rem;
+  padding:0.4rem;
+  color: aliceblue;
+  font-size:0.8rem;
+  bottom: 0.5rem;
+  position: absolute;
+  border-radius: 0.6rem !important;
+  padding-bottom:0.6rem;
+  padding-top: 0.6rem;
+}
+
+.sidebarForm{
+  width:97%;
+  margin-top:0.5rem;
+  background-color:#e37df9;
+  height:1.5rem !important;
+  border-color: #333333 !important;
+  border: 0 !important;
+  border-radius:0.4rem !important;
+}
+.sidebarForm:focus{
+  border-color: #A717B4 !important;
+}
+.disable-focus{
+  border-radius:35px;
+  border: 0px;
+  background-color: #3F4675;
+  width: 100%;
+  height:30px;
+  padding-left: 0.5rem;
+  color: aliceblue;
+  font-size:0.8rem;
+
+}
+.sidebarheader{
+  margin-left: 1.7rem;
+  color: #F61872;
+  font-size:0.9rem;
+  font-weight: 400 !important;
+}
+.sidebarinput{
+  border-radius:0.3rem !important;
+  width:94% !important;
+  height:25px;
+  margin-top:1rem;
+}
+.sidebarinput:focus{
+  outline: none;
+
+}
+
+.disable-focus:focus {
+  outline: none;
+  /* Add any other custom styles to remove or modify focus effect */
+  
+}
+
+.profile-image-container {
+  width: 2.2rem; /* Adjust the width and height as needed */
+  height: 2.2rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right:0.3rem;
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Adjust the image fit as needed */
+}
+.notification-container {
+  width: 2.3rem; /* Adjust the width and height as needed */
+  height: 2.3rem;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  background-color:#3F4675;
+  ;
+  
+}
+
+
+.notification-badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+
+
+
+
+
