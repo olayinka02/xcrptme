@@ -34,12 +34,12 @@ function App() {
             onBreakPoint={setBroken}>
 
 
-            <center style={{ paddingTop: 0.5 + 'rem', }}>
+            <center >
               <Navbar.Brand className='logo' >
                 <img
                   alt=""
                   src={logo}
-
+                  style={{marginTop:'1.1rem'}}
                   className="d-inline-block align-top"
                 />{' '}
 
@@ -78,7 +78,7 @@ function App() {
               <MenuItem icon={< CalendarCheckFill size={19} />} > Active Bid</MenuItem>
               <MenuItem icon={< Save2Fill  size={19} />} > Saved</MenuItem>
 
-              <h5 className="sidebarheader">Account</h5>
+              <h5 className="sidebarheader2">Account</h5>
 
               <MenuItem icon={< CollectionFill size={19} />} > Collection</MenuItem>
               <MenuItem icon={< WalletFill size={19}/>} > Wallet</MenuItem>
